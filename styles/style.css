@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font), sans-serif;
-  font-variation-settings: var(--main-text-weight);
+  font-variation-settings: "wght" var(--main-text-weight);
   background-image: var(--page-bg);
   background-attachment: fixed;
   background-size: cover;
@@ -27,7 +27,7 @@
   width: var(--content-width);
   min-height: var(--content-min-height);
   background-color: var(--main-bg);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), Cursive;
   text-transform: uppercase;
   align-content: center;
   gap: 22px;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .card h2 {
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   font-weight: var(--card-header-weight);
   padding: 4px 10px;
   font-size: 18px;
@@ -113,7 +113,7 @@ h1 {
   position: absolute;
   top: 29px;
   right: 25px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), cursive;
   font-size: 14px;
   text-transform: uppercase;
   mix-blend-mode: hard-light;
@@ -226,7 +226,7 @@ h1 {
 }
 
 .card__like-button {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), cursive;
   font-size: 14px;
   background-color: transparent;
   width: 130px;
@@ -261,7 +261,7 @@ h1 {
 }
 
 .button__text {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), cursive;
   font-size: 14px;
   line-height: 90%;
 }
@@ -307,7 +307,7 @@ h1 {
 .card__save-exit {
   width: 100%;
   block-size: 38px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), cursive;
   font-size: 14px;
   background-color: transparent;
   border: 2px solid rgba(0, 0, 0, 1);
